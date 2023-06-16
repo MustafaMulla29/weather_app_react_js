@@ -1,0 +1,106 @@
+
+body{
+    font-family: 'Jost', sans-serif;
+
+    /* background: url('/images/background.jpg') no-repeat center center/cover; */
+    /* background: url('https://source.unsplash.com/900x900/?weather') ; */
+    background:url("https://source.unsplash.com/1200x588/?weather, rain, clouds, thundrestorm") no-repeat center center/cover;
+    /* overflow: hidden; */
+}
+
+
+.box{
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    /* height: 100vh; */
+    font-family: 'Jost', sans-serif;
+    position: absolute;
+    top: 23.5rem;
+    background-color: #00000091;
+    transform: translate(50%, -50%);
+    padding: 1rem 2rem;
+    border-radius: 3px;
+    overflow: hidden;
+    z-index:1;
+    
+}
+.inputData input{
+    width: 30vw;
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: 1.8rem;
+    font-family: 'Jost', sans-serif;
+    border-radius: 2rem;
+    background-color: white;
+    color: black;
+    border: 1px solid purple;
+}
+
+.info{
+    width: 50vw;
+}
+.info-img{
+    width: 100%;
+    /* margin: 1rem 0; */
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+.info-image{
+    width: 22%;
+}
+.location{
+    font-size: 5rem;
+    /* transform: translateY(50%); */
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+.location .location-icon{
+    font-size: 5rem;
+    transform: translateY(17%);
+}
+
+.wave{
+    opacity: 0.3;
+    position: absolute;
+    top: 120%;
+    left: -19%;
+    background: #65b1e6;
+    width: 70rem;
+    height: 69rem;
+    /* margin-left: -25rem; */
+    margin-top: -20rem;
+    transform-origin: 50% 48%;
+    border-radius: 43%;
+    animation: drift 3000ms infinite linear ;
+    z-index: 1;
+}
+
+.wave .-three{
+    animation: drift 5000ms infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+}
+.wave .-two{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.2;
+    z-index: 3 !important;
+}
+.wave .-one{
+    animation: drift 7000ms infinite linear;
+    opacity: 0.1;
+    z-index: 3 !important;
+}
+
+@keyframes drift{
+    from{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}

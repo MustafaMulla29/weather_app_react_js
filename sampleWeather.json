@@ -1,0 +1,44 @@
+{
+    "coord": {
+    "lon": 73.8333,
+    "lat": 15.4833
+    },
+    "weather": [
+    {
+    "id": 804,
+    "main": "Clouds",
+    "description": "overcast clouds",
+    "icon": "04n"
+    }
+    ],
+    "base": "stations",
+    "main": {
+    "temp": 298.95,
+    "feels_like": 299.75,
+    "temp_min": 298.95,
+    "temp_max": 298.95,
+    "pressure": 1011,
+    "humidity": 83,
+    "sea_level": 1011,
+    "grnd_level": 1011
+    },
+    "visibility": 10000,
+    "wind": {
+    "speed": 2.94,
+    "deg": 303,
+    "gust": 4.1
+    },
+    "clouds": {
+    "all": 86
+    },
+    "dt": 1663596174,
+    "sys": {
+    "country": "IN",
+    "sunrise": 1663548808,
+    "sunset": 1663592632
+    },
+    "timezone": 19800,
+    "id": 1260607,
+    "name": "Panjim",
+    "cod": 200
+    }
